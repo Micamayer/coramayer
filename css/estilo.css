@@ -1,0 +1,261 @@
+@charset "UTF-8";
+.footer__color--tamaño {
+  color: white;
+  background-color: pink; }
+
+.encabezado__pagina--color {
+  color: red; }
+
+.encabezado__cora {
+  color: black; }
+
+.destacados {
+  color: red; }
+
+.encabezado__sobrecora--color {
+  color: red; }
+
+h1 {
+  color: rojo; }
+
+.red {
+  color: red !important; }
+
+.dark-pink {
+  color: dark-pink !important; }
+
+.pink {
+  color: pink !important; }
+
+.white {
+  color: white !important; }
+
+/*map-get*/
+.estilo__mapa {
+  color: red;
+  text-aling: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 300; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.encabezado__pagina--color {
+  padding: 10px;
+  margin: 20px; }
+
+.encabezado__cora {
+  padding: 10px;
+  margin: 50px; }
+
+.destacados {
+  padding: 10px;
+  margin: 20px; }
+
+.carouselExampleIndicators {
+  padding: 10px;
+  margin: 50px; }
+
+div.card {
+  padding: 50px;
+  margin: 10px; }
+
+footer__redes {
+  margin: 20px; }
+
+.footerBG h3 {
+  text-align: center; }
+
+.encabezado__pagina--color {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.cora {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-weight: 300; }
+
+.destacados {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.carrousel__imgDest {
+  width: 300;
+  height: 400; }
+
+.encabezado__sobrecora--color {
+  text-aling: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.encabezado__texto {
+  text-aling: center;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.footer {
+  background-color: #F0CECF; }
+
+.footer-col h4 {
+  padding: 10px;
+  font-size: 20px;
+  color: #CF2D1F;
+  margin-bottom: 30px;
+  font-family: 'Spectral SC', serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.redes--sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.redes--sociales img {
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-left: 10px; }
+
+.mail--celular {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.mail--celular img {
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-left: 10px; }
+
+.facebook:hover {
+  transform: scale(2, 2); }
+
+.instagram:hover {
+  transform: scale(2, 2); }
+
+.mail:hover {
+  transform: scale 2, 2; }
+
+.celular:hover {
+  transform: scale 2, 2; }
+
+.conteiner__consulta {
+  padding: 50px;
+  margin: 20px; }
+
+.conteiner__contacto h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Arima Madurai', cursive;
+  font-weight: 300;
+  color: red; }
+
+.conteiner__contacto p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Spectral SC', serif;
+  font-weight: 300;
+  color: red; }
+
+.conteiner__nombre {
+  displey: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.conteiner__consulta {
+  displey: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.encabezado h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Arima Madurai', cursive;
+  font-weight: 300;
+  color: red; }
+
+.encabezado p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Arima Madurai', cursive;
+  font-weight: 300;
+  color: red;
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px; }
+
+.ubicacion__cora {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Arima Madurai', cursive;
+  font-weight: 300;
+  color: red;
+  margin: 50px; }
+
+.ubicacion__mendoza--centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Arima Madurai', cursive;
+  font-weight: 300;
+  color: red;
+  font-size: 20px; }
+
+.ubicacion__mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/*--------------------vista desktop-----------------------*/
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  .encabezado__pagina--color {
+    font-size: 2.7rem; }
+  .encabezado__cora {
+    font-size: 1.7rem; }
+  .destacados {
+    font-size: 2.7rem; }
+  .carrousel__imgDest {
+    height: 600px;
+    width: 500px;
+    display: flex;
+    margin-left: 350px; } }
+
+/*-------------------vista mobile--------------------------*/
+@media only screen and (max-width: 767px) {
+  .encabezado__pagina--color {
+    font-size: 1.7; }
+  .encabezado__cora {
+    font-size: 1.2rem; }
+  .destacados {
+    font-size: 1.7rem; }
+  .carrousel__imgDest {
+    height: 600px;
+    width: 500px; } }

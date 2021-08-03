@@ -1,0 +1,47 @@
+$rojo:red;
+$rosado:pink;
+$negro:black;
+$blanco:white;
+
+
+.footer__color--tamaño{
+	color:$blanco;
+	background-color:$rosado;
+}
+.encabezado__pagina--color{
+	color:$rojo;
+}
+.encabezado__cora{
+	color:$negro;
+}
+.destacados{
+	color:$rojo;
+}
+.encabezado__sobrecora--color{
+	color:$rojo
+}
+h1{
+	color:rojo;
+}
+@each $color in red, dark-pink, pink, white{
+	.#{$color}{
+	color:#{$color}!important;
+	}
+}
+/*map-get*/
+$estilos:(
+color: red,
+centro: center,
+tFuente: 50px,
+50px: 50px,
+font-weight: 300,
+);
+
+.estilo__mapa{
+	color: map-get($estilos, color);
+	text-aling: map-get($estilos, centro);
+	padding: map-get($estilos, 50px);
+	font-size: map-get($estilos, tFuente);
+	font-weight: map-get($estilos, font-weight);
+
+}

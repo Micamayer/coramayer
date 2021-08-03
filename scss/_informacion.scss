@@ -1,0 +1,46 @@
+.encabezado h1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-aling: center;
+	font-style: 'Arima Madurai', cursive;
+	font-weight: 300;
+	color: red;
+}
+.encabezado p{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-aling: center;
+	font-style: 'Arima Madurai', cursive;
+	font-weight: 300;
+	color: red;
+	font-size: 20px;
+	margin:50px;
+	padding:10px;
+}
+.ubicacion__cora{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-aling: center;
+	font-style: 'Arima Madurai', cursive;
+	font-weight: 300;
+	color: red;
+	margin: 50px;
+}
+.ubicacion__mendoza--centro{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-aling: center;
+	font-style: 'Arima Madurai', cursive;
+	font-weight: 300;
+	color: red;
+	font-size: 20px;
+}
+.ubicacion__mapa{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

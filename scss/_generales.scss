@@ -1,0 +1,43 @@
+$centro:center;
+$tipoB:'Spectral SC', serif;
+$tipoC:'Arima Madurai', cursive;
+$altura: 400 ;
+$ancho: 300 ;
+$pesoFB: 200;
+$pesoFC: 300;
+
+.footerBG h3 {
+  text-align: $centro;
+}
+.encabezado__pagina--color{
+  text-align: $centro;
+  font-family: $tipoB;
+  font-weight: $pesoFB;
+}
+
+.cora{
+  font-family: $tipoC;
+  text-align: $centro;
+  font-weight: $pesoFC;
+  
+}
+.destacados{
+  text-align: $centro;
+  font-family: $tipoB;
+  font-weight: $pesoFB;
+
+}
+.carrousel__imgDest{
+  width: $ancho;
+  height: $altura;
+}
+.encabezado__sobrecora--color{
+  text-aling: $centro;
+  font-family: $tipoB;
+  font-weight: $pesoFB;
+}
+.encabezado__texto{
+  text-aling: $centro;
+  font-family: $tipoC;
+  font-weight: $pesoFB;
+}

@@ -1,0 +1,36 @@
+$PaddingT: 50px;
+$PaddingR: 0px;
+$PaddingB: 10px;
+$marginT: 20px;
+
+
+.paddingTB{ 
+	padding-top: $PaddingT;
+	padding-bottom: $PaddingT;}
+.container-fluid{
+	padding-left: $PaddingR;
+	padding-right: $PaddingR;}
+
+.encabezado__pagina--color{
+	padding: $PaddingB;
+	margin: $marginT;
+}
+.encabezado__cora{
+	padding: $PaddingB;
+	margin: $PaddingT;
+}
+.destacados{
+	padding: $PaddingB;
+	margin: $marginT;
+}
+.carouselExampleIndicators{
+	padding: $PaddingB;
+	margin: $PaddingT;
+}
+div.card{
+	padding: $PaddingT;
+	margin: $PaddingB;
+}
+footer__redes{
+	margin:$marginT
+}

@@ -1,0 +1,46 @@
+@import "colores";
+@import "Boxmodel";
+@import "generales";
+@import "tamanios";
+@import "footer";
+@import "contacto";
+@import "informacion";
+
+
+
+/*--------------------vista desktop-----------------------*/
+@media only screen and (min-width: 1024px){
+.navbar-expand-lg .navbar-collapse{
+	justify-content: flex-end;}
+
+.encabezado__pagina--color{
+	font-size: 2.7rem;
+}
+.encabezado__cora{
+	font-size: 1.7rem;
+}
+.destacados{
+	font-size: 2.7rem;
+}
+.carrousel__imgDest{
+	height: 600px;
+	width: 500px;
+	display: flex;
+	margin-left: 350px;
+}
+}
+/*-------------------vista mobile--------------------------*/
+@media only screen and (max-width: 767px){
+.encabezado__pagina--color{
+	font-size: 1.7;
+}
+.encabezado__cora{
+	font-size: 1.2rem;
+}
+.destacados{
+	font-size: 1.7rem;
+}
+.carrousel__imgDest{
+	height: 600px;
+	width: 500px;}
+}

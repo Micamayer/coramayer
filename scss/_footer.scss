@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.footer{
+	background-color: #F0CECF;
+}
+.footer-col h4{
+	padding: 10px;
+	font-size:20px;
+	color: #CF2D1F;
+	margin-bottom: 30px;
+	font-family: 'Spectral SC', serif;
+	font-weight: 300;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.redes--sociales{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.redes--sociales img{
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+}
+.mail--celular{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+.mail--celular img{
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+}
+.facebook:hover{
+	transform: scale(2,2);
+}
+.instagram:hover{
+	transform: scale(2,2);
+}
+.mail:hover{
+	transform: scale (2,2);
+}
+.celular:hover{
+	transform: scale (2,2);
+}
