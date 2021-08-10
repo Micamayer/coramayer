@@ -1,3 +1,5 @@
+@import "colores";
+
 .encabezado h1{
 	display: flex;
 	flex-direction: row;
@@ -5,7 +7,7 @@
 	text-aling: center;
 	font-style: 'Arima Madurai', cursive;
 	font-weight: 300;
-	color: red;
+	color: rojo;
 }
 .encabezado p{
 	display: flex;

@@ -16,7 +16,7 @@
   color: red; }
 
 h1 {
-  color: rojo; }
+  color: red; }
 
 .red {
   color: red !important; }
@@ -186,6 +186,45 @@ footer__redes {
   flex-direction: row;
   justify-content: center; }
 
+.footer__color--tamaño {
+  color: white;
+  background-color: pink; }
+
+.encabezado__pagina--color {
+  color: red; }
+
+.encabezado__cora {
+  color: black; }
+
+.destacados {
+  color: red; }
+
+.encabezado__sobrecora--color {
+  color: red; }
+
+h1 {
+  color: red; }
+
+.red {
+  color: red !important; }
+
+.dark-pink {
+  color: dark-pink !important; }
+
+.pink {
+  color: pink !important; }
+
+.white {
+  color: white !important; }
+
+/*map-get*/
+.estilo__mapa {
+  color: red;
+  text-aling: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 300; }
+
 .encabezado h1 {
   display: flex;
   flex-direction: row;
@@ -193,7 +232,7 @@ footer__redes {
   text-aling: center;
   font-style: 'Arima Madurai', cursive;
   font-weight: 300;
-  color: red; }
+  color: rojo; }
 
 .encabezado p {
   display: flex;
@@ -231,6 +270,72 @@ footer__redes {
   display: flex;
   flex-direction: row;
   justify-content: center; }
+
+nav.navbar {
+  background-color: red; }
+
+.comoComprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: 'Arima Madurai', cursive;
+  font-weight: 300;
+  color: red;
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px; }
+
+.footer__color--tamaño {
+  color: white;
+  background-color: pink; }
+
+.encabezado__pagina--color {
+  color: red; }
+
+.encabezado__cora {
+  color: black; }
+
+.destacados {
+  color: red; }
+
+.encabezado__sobrecora--color {
+  color: red; }
+
+h1 {
+  color: red; }
+
+.red {
+  color: red !important; }
+
+.dark-pink {
+  color: dark-pink !important; }
+
+.pink {
+  color: pink !important; }
+
+.white {
+  color: white !important; }
+
+/*map-get*/
+.estilo__mapa {
+  color: red;
+  text-aling: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 300; }
+
+.productos__cora {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-beetwen; }
+
+.btn-primary {
+  color: red; }
+
+.btn {
+  color: pink; }
 
 /*--------------------vista desktop-----------------------*/
 @media only screen and (min-width: 1024px) {

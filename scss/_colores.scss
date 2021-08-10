@@ -21,7 +21,7 @@ $blanco:white;
 	color:$rojo
 }
 h1{
-	color:rojo;
+	color:$rojo;
 }
 @each $color in red, dark-pink, pink, white{
 	.#{$color}{
