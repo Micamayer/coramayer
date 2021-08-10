@@ -1,33 +1,37 @@
+@import "colores";
+@import "Boxmodel";
+@import "generales";
+
 .conteiner__consulta{
-	padding: 50px;
-	margin: 20px;
+	padding: $PaddingT;
+	margin: $PaddingB*2;
 }
 .conteiner__contacto h2{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	text-aling: center;
-	font-style: 'Arima Madurai', cursive;
-	font-weight: 300;
-	color: red;
+	justify-content: $centro;
+	text-aling: $centro;
+	font-style: $tipoC;
+	font-weight: $pesoFC;
+	color: $rojo;
 }
 .conteiner__contacto p{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	text-aling: center;
-	font-style:'Spectral SC', serif;
-	font-weight: 300;
-	color: red;	
+	justify-content: $centro;
+	text-aling: $centro;
+	font-style: $tipoB;
+	font-weight: $pesoFC;
+	color: $rojo;	
 }
 .conteiner__nombre{
 	displey: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: $centro;
 
 }
 .conteiner__consulta{
 	displey: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: $centro;
 }

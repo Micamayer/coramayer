@@ -1,22 +1,22 @@
 @charset "UTF-8";
 .footer__color--tamaño {
   color: white;
-  background-color: pink; }
+  background-color: #F0CECF; }
 
 .encabezado__pagina--color {
-  color: red; }
+  color: #CF2D1F; }
 
 .encabezado__cora {
   color: black; }
 
 .destacados {
-  color: red; }
+  color: #CF2D1F; }
 
 .encabezado__sobrecora--color {
-  color: red; }
+  color: #CF2D1F; }
 
 h1 {
-  color: red; }
+  color: #CF2D1F; }
 
 .red {
   color: red !important; }
@@ -32,11 +32,74 @@ h1 {
 
 /*map-get*/
 .estilo__mapa {
-  color: red;
+  color: #CF2D1F;
   text-aling: center;
   padding: 50px;
   font-size: 50px;
   font-weight: 300; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.encabezado__pagina--color {
+  padding: 10px;
+  margin: 20px; }
+
+.encabezado__cora {
+  padding: 10px;
+  margin: 50px; }
+
+.destacados {
+  padding: 10px;
+  margin: 20px; }
+
+.carouselExampleIndicators {
+  padding: 10px;
+  margin: 50px; }
+
+div.card {
+  padding: 50px;
+  margin: 10px; }
+
+footer__redes {
+  margin: 20px; }
+
+.footerBG h3 {
+  text-align: center; }
+
+.encabezado__pagina--color {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.cora {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-weight: 300; }
+
+.destacados {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.carrousel__imgDest {
+  width: 300;
+  height: 400; }
+
+.encabezado__sobrecora--color {
+  text-aling: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.encabezado__texto {
+  text-aling: center;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200; }
 
 .paddingTB {
   padding-top: 50px;
@@ -114,7 +177,7 @@ footer__redes {
   font-size: 20px;
   color: #CF2D1F;
   margin-bottom: 30px;
-  font-family: 'Spectral SC', serif;
+  font-family: "Spectral SC", serif;
   font-weight: 300;
   display: flex;
   flex-direction: row;
@@ -154,6 +217,108 @@ footer__redes {
 .celular:hover {
   transform: scale 2, 2; }
 
+.footer__color--tamaño {
+  color: white;
+  background-color: #F0CECF; }
+
+.encabezado__pagina--color {
+  color: #CF2D1F; }
+
+.encabezado__cora {
+  color: black; }
+
+.destacados {
+  color: #CF2D1F; }
+
+.encabezado__sobrecora--color {
+  color: #CF2D1F; }
+
+h1 {
+  color: #CF2D1F; }
+
+.red {
+  color: red !important; }
+
+.dark-pink {
+  color: dark-pink !important; }
+
+.pink {
+  color: pink !important; }
+
+.white {
+  color: white !important; }
+
+/*map-get*/
+.estilo__mapa {
+  color: #CF2D1F;
+  text-aling: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 300; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.encabezado__pagina--color {
+  padding: 10px;
+  margin: 20px; }
+
+.encabezado__cora {
+  padding: 10px;
+  margin: 50px; }
+
+.destacados {
+  padding: 10px;
+  margin: 20px; }
+
+.carouselExampleIndicators {
+  padding: 10px;
+  margin: 50px; }
+
+div.card {
+  padding: 50px;
+  margin: 10px; }
+
+footer__redes {
+  margin: 20px; }
+
+.footerBG h3 {
+  text-align: center; }
+
+.encabezado__pagina--color {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.cora {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-weight: 300; }
+
+.destacados {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.carrousel__imgDest {
+  width: 300;
+  height: 400; }
+
+.encabezado__sobrecora--color {
+  text-aling: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.encabezado__texto {
+  text-aling: center;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200; }
+
 .conteiner__consulta {
   padding: 50px;
   margin: 20px; }
@@ -163,18 +328,18 @@ footer__redes {
   flex-direction: row;
   justify-content: center;
   text-aling: center;
-  font-style: 'Arima Madurai', cursive;
+  font-style: "Arima Madurai", cursive;
   font-weight: 300;
-  color: red; }
+  color: #CF2D1F; }
 
 .conteiner__contacto p {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-aling: center;
-  font-style: 'Spectral SC', serif;
+  font-style: "Spectral SC", serif;
   font-weight: 300;
-  color: red; }
+  color: #CF2D1F; }
 
 .conteiner__nombre {
   displey: flex;
@@ -188,22 +353,22 @@ footer__redes {
 
 .footer__color--tamaño {
   color: white;
-  background-color: pink; }
+  background-color: #F0CECF; }
 
 .encabezado__pagina--color {
-  color: red; }
+  color: #CF2D1F; }
 
 .encabezado__cora {
   color: black; }
 
 .destacados {
-  color: red; }
+  color: #CF2D1F; }
 
 .encabezado__sobrecora--color {
-  color: red; }
+  color: #CF2D1F; }
 
 h1 {
-  color: red; }
+  color: #CF2D1F; }
 
 .red {
   color: red !important; }
@@ -219,29 +384,92 @@ h1 {
 
 /*map-get*/
 .estilo__mapa {
-  color: red;
+  color: #CF2D1F;
   text-aling: center;
   padding: 50px;
   font-size: 50px;
   font-weight: 300; }
+
+.footerBG h3 {
+  text-align: center; }
+
+.encabezado__pagina--color {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.cora {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-weight: 300; }
+
+.destacados {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.carrousel__imgDest {
+  width: 300;
+  height: 400; }
+
+.encabezado__sobrecora--color {
+  text-aling: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.encabezado__texto {
+  text-aling: center;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.encabezado__pagina--color {
+  padding: 10px;
+  margin: 20px; }
+
+.encabezado__cora {
+  padding: 10px;
+  margin: 50px; }
+
+.destacados {
+  padding: 10px;
+  margin: 20px; }
+
+.carouselExampleIndicators {
+  padding: 10px;
+  margin: 50px; }
+
+div.card {
+  padding: 50px;
+  margin: 10px; }
+
+footer__redes {
+  margin: 20px; }
 
 .encabezado h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-aling: center;
-  font-style: 'Arima Madurai', cursive;
+  font-style: "Arima Madurai", cursive;
   font-weight: 300;
-  color: rojo; }
+  color: #CF2D1F; }
 
 .encabezado p {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-aling: center;
-  font-style: 'Arima Madurai', cursive;
+  font-style: "Arima Madurai", cursive;
   font-weight: 300;
-  color: red;
+  color: #CF2D1F;
   font-size: 20px;
   margin: 50px;
   padding: 10px; }
@@ -251,9 +479,9 @@ h1 {
   flex-direction: row;
   justify-content: center;
   text-aling: center;
-  font-style: 'Arima Madurai', cursive;
+  font-style: "Arima Madurai", cursive;
   font-weight: 300;
-  color: red;
+  color: #CF2D1F;
   margin: 50px; }
 
 .ubicacion__mendoza--centro {
@@ -261,9 +489,9 @@ h1 {
   flex-direction: row;
   justify-content: center;
   text-aling: center;
-  font-style: 'Arima Madurai', cursive;
+  font-style: "Arima Madurai", cursive;
   font-weight: 300;
-  color: red;
+  color: #CF2D1F;
   font-size: 20px; }
 
 .ubicacion__mapa {
@@ -271,39 +499,24 @@ h1 {
   flex-direction: row;
   justify-content: center; }
 
-nav.navbar {
-  background-color: red; }
-
-.comoComprar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-aling: center;
-  font-style: 'Arima Madurai', cursive;
-  font-weight: 300;
-  color: red;
-  font-size: 20px;
-  margin: 50px;
-  padding: 10px; }
-
 .footer__color--tamaño {
   color: white;
-  background-color: pink; }
+  background-color: #F0CECF; }
 
 .encabezado__pagina--color {
-  color: red; }
+  color: #CF2D1F; }
 
 .encabezado__cora {
   color: black; }
 
 .destacados {
-  color: red; }
+  color: #CF2D1F; }
 
 .encabezado__sobrecora--color {
-  color: red; }
+  color: #CF2D1F; }
 
 h1 {
-  color: red; }
+  color: #CF2D1F; }
 
 .red {
   color: red !important; }
@@ -319,11 +532,165 @@ h1 {
 
 /*map-get*/
 .estilo__mapa {
-  color: red;
+  color: #CF2D1F;
   text-aling: center;
   padding: 50px;
   font-size: 50px;
   font-weight: 300; }
+
+.footerBG h3 {
+  text-align: center; }
+
+.encabezado__pagina--color {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.cora {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-weight: 300; }
+
+.destacados {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.carrousel__imgDest {
+  width: 300;
+  height: 400; }
+
+.encabezado__sobrecora--color {
+  text-aling: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.encabezado__texto {
+  text-aling: center;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200; }
+
+.comoComprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-aling: center;
+  font-style: "Arima Madurai", cursive;
+  font-weight: 300;
+  color: #CF2D1F;
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px; }
+
+.footer__color--tamaño {
+  color: white;
+  background-color: #F0CECF; }
+
+.encabezado__pagina--color {
+  color: #CF2D1F; }
+
+.encabezado__cora {
+  color: black; }
+
+.destacados {
+  color: #CF2D1F; }
+
+.encabezado__sobrecora--color {
+  color: #CF2D1F; }
+
+h1 {
+  color: #CF2D1F; }
+
+.red {
+  color: red !important; }
+
+.dark-pink {
+  color: dark-pink !important; }
+
+.pink {
+  color: pink !important; }
+
+.white {
+  color: white !important; }
+
+/*map-get*/
+.estilo__mapa {
+  color: #CF2D1F;
+  text-aling: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 300; }
+
+.footer__color--tamaño {
+  color: white;
+  background-color: #F0CECF; }
+
+.encabezado__pagina--color {
+  color: #CF2D1F; }
+
+.encabezado__cora {
+  color: black; }
+
+.destacados {
+  color: #CF2D1F; }
+
+.encabezado__sobrecora--color {
+  color: #CF2D1F; }
+
+h1 {
+  color: #CF2D1F; }
+
+.red {
+  color: red !important; }
+
+.dark-pink {
+  color: dark-pink !important; }
+
+.pink {
+  color: pink !important; }
+
+.white {
+  color: white !important; }
+
+/*map-get*/
+.estilo__mapa {
+  color: #CF2D1F;
+  text-aling: center;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 300; }
+
+.footerBG h3 {
+  text-align: center; }
+
+.encabezado__pagina--color {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.cora {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-weight: 300; }
+
+.destacados {
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.carrousel__imgDest {
+  width: 300;
+  height: 400; }
+
+.encabezado__sobrecora--color {
+  text-aling: center;
+  font-family: "Spectral SC", serif;
+  font-weight: 200; }
+
+.encabezado__texto {
+  text-aling: center;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 200; }
 
 .productos__cora {
   display: flex;
@@ -331,11 +698,10 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-beetwen; }
 
-.btn-primary {
-  color: red; }
-
-.btn {
-  color: pink; }
+.productos__cora {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 /*--------------------vista desktop-----------------------*/
 @media only screen and (min-width: 1024px) {

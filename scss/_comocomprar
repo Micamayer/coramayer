@@ -1,12 +1,15 @@
+@import "colores";
+@import "generales";
+
 .comoComprar{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	text-aling: center;
-	font-style: 'Arima Madurai', cursive;
-	font-weight: 300;
-	color: red;
-	font-size: 20px;
-	margin:50px;
-	padding:10px;
+	text-aling: $centro;
+	font-style: $tipoC;
+	font-weight: $pesoFC;
+	color: $rojo;
+	font-size: $marginT;
+	margin:($marginT*2)+10;
+	padding:($PaddingT/2)-15;
 }

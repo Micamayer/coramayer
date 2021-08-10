@@ -1,5 +1,5 @@
-$rojo:red;
-$rosado:pink;
+$rojo: #CF2D1F;
+$rosado: #F0CECF;
 $negro:black;
 $blanco:white;
 
@@ -30,7 +30,7 @@ h1{
 }
 /*map-get*/
 $estilos:(
-color: red,
+color: $rojo,
 centro: center,
 tFuente: 50px,
 50px: 50px,

@@ -1,12 +1,15 @@
+@import "colores";
+@import "generales";
+
 .productos__cora{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-beetwen
 }
-.btn-primary{
-	color: red
-}
-.btn{
-	color: pink
+.productos__cora{
+	display:flex;
+	flex-direction:row;
+	justify-content: $centro;
+
 }

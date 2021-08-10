@@ -1,45 +1,47 @@
 @import "colores";
+@import "generales";
+@import "Boxmodel";
 
 .encabezado h1{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	text-aling: center;
-	font-style: 'Arima Madurai', cursive;
-	font-weight: 300;
-	color: rojo;
+	justify-content: $centro;
+	text-aling: $centro;
+	font-style: $tipoC;
+	font-weight: $pesoFC;
+	color: $rojo;
 }
 .encabezado p{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	text-aling: center;
-	font-style: 'Arima Madurai', cursive;
-	font-weight: 300;
-	color: red;
-	font-size: 20px;
-	margin:50px;
-	padding:10px;
+	font-style: $tipoC;
+	font-weight: $pesoFC;
+	color: $rojo;
+	font-size: $marginT;
+	margin: $PaddingT;
+	padding: $PaddingB;
 }
 .ubicacion__cora{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	text-aling: center;
-	font-style: 'Arima Madurai', cursive;
-	font-weight: 300;
-	color: red;
-	margin: 50px;
+	font-style: $tipoC;
+	font-weight: $pesoFC;
+	color: $rojo;
+	margin: $PaddingT;
 }
 .ubicacion__mendoza--centro{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	text-aling: center;
-	font-style: 'Arima Madurai', cursive;
-	font-weight: 300;
-	color: red;
-	font-size: 20px;
+	font-style: $tipoC;
+	font-weight: $pesoFC;
+	color: $rojo;
+	font-size: $marginT;
 }
 .ubicacion__mapa{
 	display: flex;
